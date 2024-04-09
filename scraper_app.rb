@@ -39,7 +39,6 @@ if scraped_data
       <title>Jerry's Daily Wake-up Call</title>
       <style>
         .container {
-          max-width: 600px;
           width: 100%;
         }
         .workout-container {
@@ -57,7 +56,7 @@ if scraped_data
     </head>
     <body style="margin: 0; padding: 0;">
       <center>
-        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <table align="center" valign="top" width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td align="center" valign="top">
               <div class="container">
@@ -68,7 +67,7 @@ if scraped_data
           <tr>
             <td align="center" valign="top">
               <div class="container workout-container">
-                <div style="padding: 20px; color: white; font-size: 34px; font-weight: bold; letter-spacing: 0.30px; font-family: 'Play', sans-serif;">
+                <div style="padding: 15px; color: white; font-size: 34px; font-weight: bold; letter-spacing: 0.30px; font-family: 'Play', sans-serif;">
                   <h2>Wake-Up Call </br> #{DateTime.now.strftime('%A, %B %-d')}</h2>
                 </div>
               </div>
@@ -77,7 +76,7 @@ if scraped_data
           <tr>
             <td align="center" valign="top">
               <div class="container equipment-container">
-                <div style="padding: 20px; font-size: 36px; color: black; font-family: 'Open Sans', sans-serif;">
+                <div style="padding: 15px; font-size: 36px; color: black; font-family: 'Open Sans', sans-serif;">
                   <h4> Equipment to pack: <br> #{matched_terms.join(', ')}</h4>
                   <h4>Today's Weather for New Orleans, LA: <br> #{weather_info}</h4>
                 </div>
@@ -98,7 +97,7 @@ if scraped_data
         </table>
         <div align="center" valign="top">
           <a href="https://jerryvohrer.weebly.com/contact">
-            <img align="center" src="https://pbs.twimg.com/profile_images/1758887850060201984/uJ9F3Aad_400x400.jpg" width="15%" style="margin: 0; padding: 0; border: none; display: inline-block;" alt="Jerry Vohrer Logo">
+            <img align="center" src="https://pbs.twimg.com/profile_images/1777806278904918016/JLg-H4BX_400x400.jpg" width="15%" style="margin: 2em; padding: 1em; border: none;" alt="Jerry Vohrer Logo">
           </a>
         </div>
       </center>
